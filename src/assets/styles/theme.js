@@ -1,0 +1,32 @@
+export const theme = {
+  colors: {
+    white: "#FFFFFF",
+    lightGrey: "#F7F8FA",
+    grey: "#C0C7D6",
+    darkGrey: "#737C8E",
+    black: "#111111",
+    success: "#28a745",
+    darkSuccess: "#228f3b",
+    error: "#dc3545",
+    darkError: "#bd2f3d",
+    warning: "#E1D888",
+    darkPurple: "#C0C7D6",
+    lightPurple: "#ECEFF7",
+    lightPurpleAlpha: "rgba(236, 239, 247, 0.2)",
+    headerColor: "rgba(42, 48, 53, 0.7)",
+    lightBlue: "#007bff",
+    darkBlue: "#005fc4",
+    blueLinearGradient: "linear-gradient(270deg,#117ec9,#04c1bc,#00b0ff)",
+  },
+  fontSize: {
+    xxl: "34px",
+    xl: "24px",
+    l: "17px",
+    m: "12px",
+    s: "11px",
+  },
+  boxShadow: {
+    container: "0px 0px 18px 0px rgba(0,0,0,0.57)",
+    focus: "0px 11px 18px -7px rgba(0,0,0,0.57)",
+  },
+};

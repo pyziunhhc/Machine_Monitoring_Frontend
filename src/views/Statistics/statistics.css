@@ -1,0 +1,12 @@
+div.user-statistics__container > div.user-statistic__container > h1 {
+  font-weight: bold;
+  text-align: center;
+}
+
+div.user-statistic__container {
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+div.configuration__container > label {
+  border: none;
+}

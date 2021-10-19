@@ -1,0 +1,10 @@
+.dashboard__wrapper {
+  width: 100%;
+}
+div.dashboard__container {
+  display: flex;
+  flex-direction: row;
+}
+.dashboard-element__container {
+  /* flex: 1; */
+}

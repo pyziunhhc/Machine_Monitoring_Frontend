@@ -1,0 +1,18 @@
+div.machine-feed__container > div.machines__container {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.feed {
+  font-size: 2em;
+  font-weight: bold;
+}
+.feed-good {
+  color: green;
+}
+.feed-bad {
+  color: red;
+}
+.machine-feed__container > .machine {
+  width: 300px;
+}
