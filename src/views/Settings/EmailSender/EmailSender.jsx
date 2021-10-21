@@ -73,7 +73,7 @@ const UsersAccessedToSender = () => {
         data={users}
         type="machine-sender-access"
         headers={["Login", "Dzienny", "Miesięczny", "Akcje"]}
-        actions={{ sendPerformanceReport: sendPerformanceReport }}
+        actions={{ sendPerformanceReport }}
       />
       {showMachineDetailsWindow && displayedMachineName ? ( //TODO: zmienić showMachineDetailsWindow na showDetailsWindow
         <MachineWindowUsersList

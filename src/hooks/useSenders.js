@@ -46,7 +46,7 @@ const SendersProvider = ({ children }) => {
     }
   };
   const sendPerformanceReport = async (login, type) => {
-    const url = `/sender/send/${type}`,
+    const url = `/sender/send/performance/${type}`,
       method = "POST",
       body = { login },
       result = await doFetch(url, method, body);

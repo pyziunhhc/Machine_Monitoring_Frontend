@@ -51,7 +51,6 @@ export default function MachineDetailsWindow({
           from.toISOString(),
           to.toISOString()
         );
-        console.log(result);
         if (success) {
           setSummaryData(summary);
           setChartJSData(chartJS);

@@ -26,6 +26,7 @@ const AuthProvider = ({ children }) => {
             method = "GET",
             response = await doFetch(url, method, null);
           if (response) {
+            console.log(response);
             const { success, user } = response;
             if (success) {
               setUser(user);
@@ -67,6 +68,7 @@ const AuthProvider = ({ children }) => {
       const url = "/auth/logout",
         method = "POST",
         result = await doFetch(url, method);
+      console.log(result);
       if (result.success) {
         setUser(null);
         localStorage.removeItem("token");
