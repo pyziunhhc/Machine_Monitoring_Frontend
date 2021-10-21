@@ -66,13 +66,13 @@ export default function MachineCard({
         }
       }}>
       <h3 className="machine-name">{machineName}</h3>
-      {showStatus ? (
+      {/* {showStatus ? (
         <Status
           machineName={machineName}
           shortName={shortName}
           showStatus={showStatus}
         />
-      ) : null}
+      ) : null} */}
       <FeedValue feed={feed} />
 
       {screenType === "occupancy" ? (

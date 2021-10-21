@@ -26,9 +26,9 @@ const FetchProvider = ({ children }) => {
           Authorization: `Bearer ${token}`,
         },
       };
-      return fetch(`/${api}${url}`, options)
+      return fetch(`http://localhost:3001/${api}${url}`, options)
         .then(async (response) => {
-          console.log(response);
+          // console.log(response);
           if (response) {
             switch (response.status) {
               case 401: {
